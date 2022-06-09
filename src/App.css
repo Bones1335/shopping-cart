@@ -19,6 +19,7 @@ nav {
   list-style: none;
 }
 
+.logo,
 .nav-links a {
   text-decoration: none;
   color: white;
