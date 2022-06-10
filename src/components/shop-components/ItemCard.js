@@ -3,7 +3,7 @@ import React from 'react';
 function ItemCard(props) {
   const {
     card: {src, title, price},
-    handleCartState,
+    // handleCartState,
   } = props;
   
   return (
@@ -12,7 +12,7 @@ function ItemCard(props) {
         <img src={src} alt={title} />
       </figure>
       <p>{price}</p>
-      <button className="add-to-cart" onClick={handleCartState.bind(this)}>Add to Cart</button>
+      <button className="add-to-cart" /*onClick={handleCartState.bind(this)}*/>Add to Cart</button>
     </div>
   )
 }
