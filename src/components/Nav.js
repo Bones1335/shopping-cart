@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import {ReactComponent as Cart} from '../images/cart.svg';
 import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -19,7 +20,9 @@ function Nav() {
                 <li>Shop</li>
             </Link>
             <Link to="/cart">
-                <li>Cart-icon</li>
+                <li>
+                    <Cart style={{'height': '30px', 'width': '30px', 'fill': 'white'}} />
+                </li>
             </Link>
         </ul>
     </nav>
